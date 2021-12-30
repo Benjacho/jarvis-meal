@@ -2,17 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\MealType;
+use App\Models\ScheduleMeal;
 use Inertia\Inertia;
 
 class DashboardController extends Controller
 {
     public function index()
     {
-        $mealTypes = MealType::all();
+        $scheduleMeals = ScheduleMeal::all();
+        ray($scheduleMeals);
 
         return Inertia::render('Dashboard', [
-            'mealTypes' => $mealTypes
+            'scheduleMeals' => $scheduleMeals
         ]);
     }
 }

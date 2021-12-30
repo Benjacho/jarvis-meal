@@ -1,22 +1,22 @@
 <?php
 
 
-use App\Models\MealType;
+use App\Models\ScheduleMeal;
 use Inertia\Testing\Assert;
 
 test('dashboard component is displayed', function () {
     $this->get('/dashboard')->assertInertia(fn(Assert $page) => $page->component('Dashboard'));
 });
 
-test('it returns meal types', function () {
+test('it returns schedule meals', function () {
 
-    $mealType = MealType::factory()->create();
+    $scheduleMeal = ScheduleMeal::factory()->create();
     $this->get('/dashboard')->assertInertia(
         fn(Assert $page) => $page->component('Dashboard')
-            ->has('mealTypes', 1, fn(Assert $page) => $page
-                ->where('id', $mealType->id)
-                ->where('name', $mealType->name)
-                ->where('hour', $mealType->hour)
+            ->has('scheduleMeals', 1, fn(Assert $page) => $page
+                ->where('id', $scheduleMeal->id)
+                ->where('name', $scheduleMeal->name)
+                ->where('hour', $scheduleMeal->hour)
                 ->etc())
     );
 

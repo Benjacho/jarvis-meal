@@ -43,57 +43,44 @@
                         </thead>
                         <tbody>
                         <!-- Odd row -->
-                        <tr class="bg-white">
+                        <tr v-for="schedule in scheduleMeals" class="bg-white">
                             <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                                Desayuno (7:30 AM)
-                            </td>
-                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-500">
-                                1 taza de avena con arandanos sin azucar + 1 tostada o 1 pan de molde integral +
-                                omelette 2 claas de huevo 1 yema
-                            </td>
-                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                jane.cooper@example.com
-                            </td>
-                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                Admin
-                            </td>
-                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-500">
-                                1 taza de avena con arandanos sin azucar + 1 tostada o 1 pan de molde integral +
-                                omelette 2 claas de huevo 1 yema
-                            </td>
-                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-500">
-                                1 taza de avena con arandanos sin azucar + 1 tostada o 1 pan de molde integral +
-                                omelette 2 claas de huevo 1 yema
-                            </td>
-                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-500">
-                                1 taza de avena con arandanos sin azucar + 1 tostada o 1 pan de molde integral +
-                                omelette 2 claas de huevo 1 yema
-                            </td>
-                            <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                                <a class="text-indigo-600 hover:text-indigo-900" href="#">Edit</a>
+                                {{ schedule.name }}
+                                <span class="block">
+                                    ({{ parseTime(schedule.hour) }})
+                                </span>
                             </td>
                         </tr>
-
-                        <!-- Even row -->
-                        <tr class="bg-gray-50">
-                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                                Cody Fisher
-                            </td>
-                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                Product Directives Officer
-                            </td>
-                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                cody.fisher@example.com
-                            </td>
-                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                Owner
-                            </td>
-                            <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                                <a class="text-indigo-600 hover:text-indigo-900" href="#">Edit</a>
-                            </td>
-                        </tr>
-
-                        <!-- More people... -->
+                        <!--                        <tr class="bg-white">-->
+                        <!--                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">-->
+                        <!--                                Desayuno (7:30 AM)-->
+                        <!--                            </td>-->
+                        <!--                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-500">-->
+                        <!--                                1 taza de avena con arandanos sin azucar + 1 tostada o 1 pan de molde integral +-->
+                        <!--                                omelette 2 claas de huevo 1 yema-->
+                        <!--                            </td>-->
+                        <!--                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">-->
+                        <!--                                jane.cooper@example.com-->
+                        <!--                            </td>-->
+                        <!--                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">-->
+                        <!--                                Admin-->
+                        <!--                            </td>-->
+                        <!--                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-500">-->
+                        <!--                                1 taza de avena con arandanos sin azucar + 1 tostada o 1 pan de molde integral +-->
+                        <!--                                omelette 2 claas de huevo 1 yema-->
+                        <!--                            </td>-->
+                        <!--                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-500">-->
+                        <!--                                1 taza de avena con arandanos sin azucar + 1 tostada o 1 pan de molde integral +-->
+                        <!--                                omelette 2 claas de huevo 1 yema-->
+                        <!--                            </td>-->
+                        <!--                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-500">-->
+                        <!--                                1 taza de avena con arandanos sin azucar + 1 tostada o 1 pan de molde integral +-->
+                        <!--                                omelette 2 claas de huevo 1 yema-->
+                        <!--                            </td>-->
+                        <!--                            <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">-->
+                        <!--                                <a class="text-indigo-600 hover:text-indigo-900" href="#">Edit</a>-->
+                        <!--                            </td>-->
+                        <!--                        </tr>-->
                         </tbody>
                     </table>
                 </div>
@@ -103,13 +90,18 @@
 </template>
 
 <script>
+import moment from 'moment'
 
 export default {
     name: "Calendar",
-    components: {},
-    mounted() {
-        console.log('hello')
+    props: {
+        scheduleMeals: Object
     },
+    methods: {
+        parseTime(time) {
+            return moment(time, "hh:mm:ss").format("hh:mm a");
+        }
+    }
 
 }
 </script>

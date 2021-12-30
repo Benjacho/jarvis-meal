@@ -9,7 +9,7 @@
         <div class="py-12">
             <div class="max-w-full mx-auto sm:px-6 lg:px-8">
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                    <calendar></calendar>
+                    <calendar :schedule-meals="scheduleMeals"></calendar>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
 
 <script>
 import {defineComponent} from 'vue'
-import AppLayout from '@/Layouts/AppLayout.vue'
+import AppLayout from "../Layouts/AppLayout";
 import Calendar from "./Calendar";
 
 export default defineComponent({
@@ -26,5 +26,8 @@ export default defineComponent({
         AppLayout,
         Calendar
     },
+    props: {
+        scheduleMeals: Object
+    }
 })
 </script>

@@ -1,0 +1,1581 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render ExampleComponent without crash 1`] = `
+VueWrapper {
+  "__app": Object {
+    "_component": Object {
+      "name": "VTU_ROOT",
+      "render": [Function],
+    },
+    "_container": <div
+      data-v-app=""
+    >
+      <app-layout-stub
+        otherpageprops="[object Object]"
+        title="Dashboard"
+      />
+    </div>,
+    "_context": Object {
+      "app": [Circular],
+      "components": Object {
+        "transition": Object {
+          "name": "transition",
+        },
+        "transition-group": Object {
+          "name": "transition-group",
+        },
+      },
+      "config": Object {
+        "compilerOptions": Object {},
+        "errorHandler": undefined,
+        "globalProperties": Object {},
+        "isNativeTag": [Function],
+        "optionMergeStrategies": Object {},
+        "performance": false,
+        "warnHandler": undefined,
+      },
+      "directives": Object {},
+      "emitsCache": WeakMap {},
+      "mixins": Array [
+        Object {
+          "beforeCreate": [Function],
+        },
+      ],
+      "optionsCache": WeakMap {},
+      "propsCache": WeakMap {},
+      "provides": Object {},
+      "reload": [Function],
+    },
+    "_instance": Object {
+      "a": null,
+      "accessCache": Object {},
+      "appContext": Object {
+        "app": [Circular],
+        "components": Object {
+          "transition": Object {
+            "name": "transition",
+          },
+          "transition-group": Object {
+            "name": "transition-group",
+          },
+        },
+        "config": Object {
+          "compilerOptions": Object {},
+          "errorHandler": undefined,
+          "globalProperties": Object {},
+          "isNativeTag": [Function],
+          "optionMergeStrategies": Object {},
+          "performance": false,
+          "warnHandler": undefined,
+        },
+        "directives": Object {},
+        "emitsCache": WeakMap {},
+        "mixins": Array [
+          Object {
+            "beforeCreate": [Function],
+          },
+        ],
+        "optionsCache": WeakMap {},
+        "propsCache": WeakMap {},
+        "provides": Object {},
+        "reload": [Function],
+      },
+      "asyncDep": null,
+      "asyncResolved": false,
+      "attrs": Object {},
+      "bc": null,
+      "bm": null,
+      "bu": null,
+      "bum": null,
+      "c": null,
+      "components": null,
+      "ctx": Object {
+        "$t": [Function],
+      },
+      "da": null,
+      "data": Object {},
+      "directives": null,
+      "ec": null,
+      "effect": ReactiveEffect {
+        "active": true,
+        "allowRecurse": true,
+        "deps": Array [
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+        ],
+        "fn": [Function],
+        "onTrack": undefined,
+        "onTrigger": undefined,
+        "scheduler": [Function],
+      },
+      "emit": [Function],
+      "emitsOptions": null,
+      "emitted": null,
+      "exposeProxy": null,
+      "exposed": null,
+      "inheritAttrs": undefined,
+      "isDeactivated": false,
+      "isMounted": true,
+      "isUnmounted": false,
+      "m": null,
+      "next": null,
+      "parent": null,
+      "props": Object {},
+      "propsDefaults": Object {},
+      "propsOptions": Array [
+        Object {},
+        Array [],
+      ],
+      "provides": Object {},
+      "proxy": Object {
+        "$t": [Function],
+      },
+      "refs": Object {
+        "VTU_COMPONENT": Object {
+          "$t": [Function],
+          "hasOwnProperty": [Function],
+          "scheduleMeals": undefined,
+        },
+      },
+      "render": [Function],
+      "renderCache": Array [],
+      "root": [Circular],
+      "rtc": null,
+      "rtg": null,
+      "scope": EffectScope {
+        "active": true,
+        "cleanups": Array [],
+        "effects": Array [
+          ReactiveEffect {
+            "active": true,
+            "allowRecurse": true,
+            "deps": Array [
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "scheduler": [Function],
+          },
+        ],
+      },
+      "setupContext": null,
+      "setupState": Object {},
+      "slots": Object {},
+      "sp": null,
+      "subTree": Object {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": null,
+        "children": null,
+        "component": Object {
+          "a": null,
+          "accessCache": Object {
+            "$t": 4,
+            "@@__IMMUTABLE_ITERABLE__@@": 0,
+            "@@__IMMUTABLE_RECORD__@@": 0,
+            "_isMockFunction": 0,
+            "constructor": 0,
+            "hasOwnProperty": 4,
+            "scheduleMeals": 3,
+            "toJSON": 0,
+            Symbol(Symbol.toStringTag): 0,
+          },
+          "appContext": Object {
+            "app": [Circular],
+            "components": Object {
+              "transition": Object {
+                "name": "transition",
+              },
+              "transition-group": Object {
+                "name": "transition-group",
+              },
+            },
+            "config": Object {
+              "compilerOptions": Object {},
+              "errorHandler": undefined,
+              "globalProperties": Object {},
+              "isNativeTag": [Function],
+              "optionMergeStrategies": Object {},
+              "performance": false,
+              "warnHandler": undefined,
+            },
+            "directives": Object {},
+            "emitsCache": WeakMap {},
+            "mixins": Array [
+              Object {
+                "beforeCreate": [Function],
+              },
+            ],
+            "optionsCache": WeakMap {},
+            "propsCache": WeakMap {},
+            "provides": Object {},
+            "reload": [Function],
+          },
+          "asyncDep": null,
+          "asyncResolved": false,
+          "attrs": Object {
+            "otherPageProps": Object {},
+          },
+          "bc": null,
+          "bm": null,
+          "bu": null,
+          "bum": null,
+          "c": null,
+          "components": Object {
+            "AppLayout": Object {
+              "components": Object {
+                "Head": Object {
+                  "beforeUnmount": [Function],
+                  "data": [Function],
+                  "methods": Object {
+                    "addTitleElement": [Function],
+                    "isUnaryTag": [Function],
+                    "renderNodes": [Function],
+                    "renderTag": [Function],
+                    "renderTagChildren": [Function],
+                    "renderTagStart": [Function],
+                  },
+                  "props": Object {
+                    "title": Object {
+                      "required": false,
+                      "type": [Function],
+                    },
+                  },
+                  "render": [Function],
+                },
+                "JetApplicationMark": Object {
+                  "render": [Function],
+                },
+                "JetBanner": Object {
+                  "computed": Object {
+                    "message": [Function],
+                    "style": [Function],
+                  },
+                  "data": [Function],
+                  "render": [Function],
+                },
+                "JetDropdown": Object {
+                  "computed": Object {
+                    "alignmentClasses": [Function],
+                    "widthClass": [Function],
+                  },
+                  "props": Object {
+                    "align": Object {
+                      "default": "right",
+                    },
+                    "contentClasses": Object {
+                      "default": [Function],
+                    },
+                    "width": Object {
+                      "default": "48",
+                    },
+                  },
+                  "render": [Function],
+                  "setup": [Function],
+                },
+                "JetDropdownLink": Object {
+                  "components": Object {
+                    "Link": Object {
+                      "name": "InertiaLink",
+                      "props": Object {
+                        "as": Object {
+                          "default": "a",
+                          "type": [Function],
+                        },
+                        "data": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "headers": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "href": Object {
+                          "type": [Function],
+                        },
+                        "method": Object {
+                          "default": "get",
+                          "type": [Function],
+                        },
+                        "only": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "preserveScroll": Object {
+                          "default": false,
+                          "type": [Function],
+                        },
+                        "preserveState": Object {
+                          "default": null,
+                          "type": [Function],
+                        },
+                        "replace": Object {
+                          "default": false,
+                          "type": [Function],
+                        },
+                      },
+                      "setup": [Function],
+                    },
+                  },
+                  "props": Array [
+                    "href",
+                    "as",
+                  ],
+                  "render": [Function],
+                },
+                "JetNavLink": Object {
+                  "components": Object {
+                    "Link": Object {
+                      "name": "InertiaLink",
+                      "props": Object {
+                        "as": Object {
+                          "default": "a",
+                          "type": [Function],
+                        },
+                        "data": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "headers": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "href": Object {
+                          "type": [Function],
+                        },
+                        "method": Object {
+                          "default": "get",
+                          "type": [Function],
+                        },
+                        "only": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "preserveScroll": Object {
+                          "default": false,
+                          "type": [Function],
+                        },
+                        "preserveState": Object {
+                          "default": null,
+                          "type": [Function],
+                        },
+                        "replace": Object {
+                          "default": false,
+                          "type": [Function],
+                        },
+                      },
+                      "setup": [Function],
+                    },
+                  },
+                  "computed": Object {
+                    "classes": [Function],
+                  },
+                  "props": Array [
+                    "href",
+                    "active",
+                  ],
+                  "render": [Function],
+                },
+                "JetResponsiveNavLink": Object {
+                  "components": Object {
+                    "Link": Object {
+                      "name": "InertiaLink",
+                      "props": Object {
+                        "as": Object {
+                          "default": "a",
+                          "type": [Function],
+                        },
+                        "data": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "headers": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "href": Object {
+                          "type": [Function],
+                        },
+                        "method": Object {
+                          "default": "get",
+                          "type": [Function],
+                        },
+                        "only": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "preserveScroll": Object {
+                          "default": false,
+                          "type": [Function],
+                        },
+                        "preserveState": Object {
+                          "default": null,
+                          "type": [Function],
+                        },
+                        "replace": Object {
+                          "default": false,
+                          "type": [Function],
+                        },
+                      },
+                      "setup": [Function],
+                    },
+                  },
+                  "computed": Object {
+                    "classes": [Function],
+                  },
+                  "props": Array [
+                    "active",
+                    "href",
+                    "as",
+                  ],
+                  "render": [Function],
+                },
+                "Link": Object {
+                  "name": "InertiaLink",
+                  "props": Object {
+                    "as": Object {
+                      "default": "a",
+                      "type": [Function],
+                    },
+                    "data": Object {
+                      "default": [Function],
+                      "type": [Function],
+                    },
+                    "headers": Object {
+                      "default": [Function],
+                      "type": [Function],
+                    },
+                    "href": Object {
+                      "type": [Function],
+                    },
+                    "method": Object {
+                      "default": "get",
+                      "type": [Function],
+                    },
+                    "only": Object {
+                      "default": [Function],
+                      "type": [Function],
+                    },
+                    "preserveScroll": Object {
+                      "default": false,
+                      "type": [Function],
+                    },
+                    "preserveState": Object {
+                      "default": null,
+                      "type": [Function],
+                    },
+                    "replace": Object {
+                      "default": false,
+                      "type": [Function],
+                    },
+                  },
+                  "setup": [Function],
+                },
+              },
+              "data": [Function],
+              "methods": Object {
+                "logout": [Function],
+                "switchToTeam": [Function],
+              },
+              "props": Object {
+                "title": [Function],
+              },
+              "render": [Function],
+            },
+            "Calendar": Object {
+              "methods": Object {
+                "parseTime": [Function],
+              },
+              "name": "Calendar",
+              "props": Object {
+                "scheduleMeals": [Function],
+              },
+              "render": [Function],
+            },
+          },
+          "ctx": Object {
+            "$t": [Function],
+            "hasOwnProperty": [Function],
+            "scheduleMeals": undefined,
+          },
+          "da": null,
+          "data": Object {},
+          "directives": null,
+          "ec": null,
+          "effect": ReactiveEffect {
+            "active": true,
+            "allowRecurse": true,
+            "deps": Array [],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "scheduler": [Function],
+          },
+          "emit": [Function],
+          "emitsOptions": null,
+          "emitted": null,
+          "exposeProxy": null,
+          "exposed": null,
+          "inheritAttrs": undefined,
+          "isDeactivated": false,
+          "isMounted": true,
+          "isUnmounted": false,
+          "m": null,
+          "next": null,
+          "parent": [Circular],
+          "props": Object {
+            "scheduleMeals": undefined,
+          },
+          "propsDefaults": Object {},
+          "propsOptions": Array [
+            Object {
+              "scheduleMeals": Object {
+                "0": false,
+                "1": true,
+                "type": [Function],
+              },
+            },
+            Array [],
+          ],
+          "provides": Object {},
+          "proxy": Object {
+            "$t": [Function],
+            "hasOwnProperty": [Function],
+            "scheduleMeals": undefined,
+          },
+          "refs": Object {},
+          "render": [Function],
+          "renderCache": Array [],
+          "root": [Circular],
+          "rtc": null,
+          "rtg": null,
+          "scope": EffectScope {
+            "active": true,
+            "cleanups": Array [],
+            "effects": Array [
+              ReactiveEffect {
+                "active": true,
+                "allowRecurse": true,
+                "deps": Array [],
+                "fn": [Function],
+                "onTrack": undefined,
+                "onTrigger": undefined,
+                "scheduler": [Function],
+              },
+            ],
+          },
+          "setupContext": null,
+          "setupState": Object {},
+          "slots": Object {},
+          "sp": null,
+          "subTree": Object {
+            "__v_isVNode": true,
+            "__v_skip": true,
+            "anchor": null,
+            "appContext": null,
+            "children": Object {
+              "default": [Function],
+              "header": [Function],
+            },
+            "component": Object {
+              "a": null,
+              "accessCache": Object {},
+              "appContext": Object {
+                "app": [Circular],
+                "components": Object {
+                  "transition": Object {
+                    "name": "transition",
+                  },
+                  "transition-group": Object {
+                    "name": "transition-group",
+                  },
+                },
+                "config": Object {
+                  "compilerOptions": Object {},
+                  "errorHandler": undefined,
+                  "globalProperties": Object {},
+                  "isNativeTag": [Function],
+                  "optionMergeStrategies": Object {},
+                  "performance": false,
+                  "warnHandler": undefined,
+                },
+                "directives": Object {},
+                "emitsCache": WeakMap {},
+                "mixins": Array [
+                  Object {
+                    "beforeCreate": [Function],
+                  },
+                ],
+                "optionsCache": WeakMap {},
+                "propsCache": WeakMap {},
+                "provides": Object {},
+                "reload": [Function],
+              },
+              "asyncDep": null,
+              "asyncResolved": false,
+              "attrs": Object {
+                "otherPageProps": Object {},
+              },
+              "bc": null,
+              "bm": null,
+              "bu": null,
+              "bum": null,
+              "c": null,
+              "components": null,
+              "ctx": Object {
+                "$t": [Function],
+                "title": "Dashboard",
+              },
+              "da": null,
+              "data": Object {},
+              "directives": null,
+              "ec": null,
+              "effect": ReactiveEffect {
+                "active": true,
+                "allowRecurse": true,
+                "deps": Array [
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                ],
+                "fn": [Function],
+                "onTrack": undefined,
+                "onTrigger": undefined,
+                "scheduler": [Function],
+              },
+              "emit": [Function],
+              "emitsOptions": null,
+              "emitted": null,
+              "exposeProxy": null,
+              "exposed": null,
+              "inheritAttrs": undefined,
+              "isDeactivated": false,
+              "isMounted": true,
+              "isUnmounted": false,
+              "m": null,
+              "next": null,
+              "parent": [Circular],
+              "props": Object {
+                "title": "Dashboard",
+              },
+              "propsDefaults": Object {},
+              "propsOptions": Array [
+                Object {
+                  "title": Object {
+                    "0": false,
+                    "1": true,
+                    "type": [Function],
+                  },
+                },
+                Array [],
+              ],
+              "provides": Object {},
+              "proxy": Object {
+                "$t": [Function],
+                "title": "Dashboard",
+              },
+              "refs": Object {},
+              "render": [Function],
+              "renderCache": Array [],
+              "root": [Circular],
+              "rtc": null,
+              "rtg": null,
+              "scope": EffectScope {
+                "active": true,
+                "cleanups": Array [],
+                "effects": Array [
+                  ReactiveEffect {
+                    "active": true,
+                    "allowRecurse": true,
+                    "deps": Array [
+                      Set {
+                        [Circular],
+                      },
+                      Set {
+                        [Circular],
+                      },
+                      Set {
+                        [Circular],
+                      },
+                      Set {
+                        [Circular],
+                      },
+                    ],
+                    "fn": [Function],
+                    "onTrack": undefined,
+                    "onTrigger": undefined,
+                    "scheduler": [Function],
+                  },
+                ],
+              },
+              "setupContext": null,
+              "setupState": Object {},
+              "slots": Object {
+                "default": [Function],
+                "header": [Function],
+              },
+              "sp": null,
+              "subTree": Object {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": null,
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <app-layout-stub
+                  otherpageprops="[object Object]"
+                  title="Dashboard"
+                />,
+                "key": null,
+                "patchFlag": 16,
+                "props": Object {
+                  "otherPageProps": Object {},
+                  "title": "Dashboard",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 1,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "app-layout-stub",
+              },
+              "suspense": null,
+              "suspenseId": 0,
+              "type": Object {
+                "compatConfig": Object {
+                  "MODE": 3,
+                  "RENDER_FUNCTION": false,
+                },
+                "name": "AppLayout",
+                "props": Object {
+                  "title": [Function],
+                },
+                "render": [Function],
+              },
+              "u": null,
+              "uid": 2,
+              "um": null,
+              "update": [Function],
+              "vnode": [Circular],
+              "withProxy": null,
+            },
+            "dirs": null,
+            "dynamicChildren": Array [
+              Object {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": Object {
+                  "default": [Function],
+                  "header": [Function],
+                },
+                "component": null,
+                "dirs": null,
+                "dynamicChildren": [Circular],
+                "dynamicProps": null,
+                "el": null,
+                "key": null,
+                "patchFlag": 0,
+                "props": Object {
+                  "title": "Dashboard",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 36,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": Object {
+                  "compatConfig": Object {
+                    "MODE": 3,
+                    "RENDER_FUNCTION": false,
+                  },
+                  "name": "AppLayout",
+                  "props": Object {
+                    "title": [Function],
+                  },
+                  "render": [Function],
+                },
+              },
+            ],
+            "dynamicProps": null,
+            "el": <app-layout-stub
+              otherpageprops="[object Object]"
+              title="Dashboard"
+            />,
+            "key": null,
+            "patchFlag": 16,
+            "props": Object {
+              "otherPageProps": Object {},
+              "title": "Dashboard",
+            },
+            "ref": null,
+            "scopeId": null,
+            "shapeFlag": 36,
+            "slotScopeIds": null,
+            "ssContent": null,
+            "ssFallback": null,
+            "staticCount": 0,
+            "suspense": null,
+            "target": null,
+            "targetAnchor": null,
+            "transition": null,
+            "type": Object {
+              "compatConfig": Object {
+                "MODE": 3,
+                "RENDER_FUNCTION": false,
+              },
+              "name": "AppLayout",
+              "props": Object {
+                "title": [Function],
+              },
+              "render": [Function],
+            },
+          },
+          "suspense": null,
+          "suspenseId": 0,
+          "type": Object {
+            "components": Object {
+              "AppLayout": Object {
+                "components": Object {
+                  "Head": Object {
+                    "beforeUnmount": [Function],
+                    "data": [Function],
+                    "methods": Object {
+                      "addTitleElement": [Function],
+                      "isUnaryTag": [Function],
+                      "renderNodes": [Function],
+                      "renderTag": [Function],
+                      "renderTagChildren": [Function],
+                      "renderTagStart": [Function],
+                    },
+                    "props": Object {
+                      "title": Object {
+                        "required": false,
+                        "type": [Function],
+                      },
+                    },
+                    "render": [Function],
+                  },
+                  "JetApplicationMark": Object {
+                    "render": [Function],
+                  },
+                  "JetBanner": Object {
+                    "computed": Object {
+                      "message": [Function],
+                      "style": [Function],
+                    },
+                    "data": [Function],
+                    "render": [Function],
+                  },
+                  "JetDropdown": Object {
+                    "computed": Object {
+                      "alignmentClasses": [Function],
+                      "widthClass": [Function],
+                    },
+                    "props": Object {
+                      "align": Object {
+                        "default": "right",
+                      },
+                      "contentClasses": Object {
+                        "default": [Function],
+                      },
+                      "width": Object {
+                        "default": "48",
+                      },
+                    },
+                    "render": [Function],
+                    "setup": [Function],
+                  },
+                  "JetDropdownLink": Object {
+                    "components": Object {
+                      "Link": Object {
+                        "name": "InertiaLink",
+                        "props": Object {
+                          "as": Object {
+                            "default": "a",
+                            "type": [Function],
+                          },
+                          "data": Object {
+                            "default": [Function],
+                            "type": [Function],
+                          },
+                          "headers": Object {
+                            "default": [Function],
+                            "type": [Function],
+                          },
+                          "href": Object {
+                            "type": [Function],
+                          },
+                          "method": Object {
+                            "default": "get",
+                            "type": [Function],
+                          },
+                          "only": Object {
+                            "default": [Function],
+                            "type": [Function],
+                          },
+                          "preserveScroll": Object {
+                            "default": false,
+                            "type": [Function],
+                          },
+                          "preserveState": Object {
+                            "default": null,
+                            "type": [Function],
+                          },
+                          "replace": Object {
+                            "default": false,
+                            "type": [Function],
+                          },
+                        },
+                        "setup": [Function],
+                      },
+                    },
+                    "props": Array [
+                      "href",
+                      "as",
+                    ],
+                    "render": [Function],
+                  },
+                  "JetNavLink": Object {
+                    "components": Object {
+                      "Link": Object {
+                        "name": "InertiaLink",
+                        "props": Object {
+                          "as": Object {
+                            "default": "a",
+                            "type": [Function],
+                          },
+                          "data": Object {
+                            "default": [Function],
+                            "type": [Function],
+                          },
+                          "headers": Object {
+                            "default": [Function],
+                            "type": [Function],
+                          },
+                          "href": Object {
+                            "type": [Function],
+                          },
+                          "method": Object {
+                            "default": "get",
+                            "type": [Function],
+                          },
+                          "only": Object {
+                            "default": [Function],
+                            "type": [Function],
+                          },
+                          "preserveScroll": Object {
+                            "default": false,
+                            "type": [Function],
+                          },
+                          "preserveState": Object {
+                            "default": null,
+                            "type": [Function],
+                          },
+                          "replace": Object {
+                            "default": false,
+                            "type": [Function],
+                          },
+                        },
+                        "setup": [Function],
+                      },
+                    },
+                    "computed": Object {
+                      "classes": [Function],
+                    },
+                    "props": Array [
+                      "href",
+                      "active",
+                    ],
+                    "render": [Function],
+                  },
+                  "JetResponsiveNavLink": Object {
+                    "components": Object {
+                      "Link": Object {
+                        "name": "InertiaLink",
+                        "props": Object {
+                          "as": Object {
+                            "default": "a",
+                            "type": [Function],
+                          },
+                          "data": Object {
+                            "default": [Function],
+                            "type": [Function],
+                          },
+                          "headers": Object {
+                            "default": [Function],
+                            "type": [Function],
+                          },
+                          "href": Object {
+                            "type": [Function],
+                          },
+                          "method": Object {
+                            "default": "get",
+                            "type": [Function],
+                          },
+                          "only": Object {
+                            "default": [Function],
+                            "type": [Function],
+                          },
+                          "preserveScroll": Object {
+                            "default": false,
+                            "type": [Function],
+                          },
+                          "preserveState": Object {
+                            "default": null,
+                            "type": [Function],
+                          },
+                          "replace": Object {
+                            "default": false,
+                            "type": [Function],
+                          },
+                        },
+                        "setup": [Function],
+                      },
+                    },
+                    "computed": Object {
+                      "classes": [Function],
+                    },
+                    "props": Array [
+                      "active",
+                      "href",
+                      "as",
+                    ],
+                    "render": [Function],
+                  },
+                  "Link": Object {
+                    "name": "InertiaLink",
+                    "props": Object {
+                      "as": Object {
+                        "default": "a",
+                        "type": [Function],
+                      },
+                      "data": Object {
+                        "default": [Function],
+                        "type": [Function],
+                      },
+                      "headers": Object {
+                        "default": [Function],
+                        "type": [Function],
+                      },
+                      "href": Object {
+                        "type": [Function],
+                      },
+                      "method": Object {
+                        "default": "get",
+                        "type": [Function],
+                      },
+                      "only": Object {
+                        "default": [Function],
+                        "type": [Function],
+                      },
+                      "preserveScroll": Object {
+                        "default": false,
+                        "type": [Function],
+                      },
+                      "preserveState": Object {
+                        "default": null,
+                        "type": [Function],
+                      },
+                      "replace": Object {
+                        "default": false,
+                        "type": [Function],
+                      },
+                    },
+                    "setup": [Function],
+                  },
+                },
+                "data": [Function],
+                "methods": Object {
+                  "logout": [Function],
+                  "switchToTeam": [Function],
+                },
+                "props": Object {
+                  "title": [Function],
+                },
+                "render": [Function],
+              },
+              "Calendar": Object {
+                "methods": Object {
+                  "parseTime": [Function],
+                },
+                "name": "Calendar",
+                "props": Object {
+                  "scheduleMeals": [Function],
+                },
+                "render": [Function],
+              },
+            },
+            "props": Object {
+              "scheduleMeals": [Function],
+            },
+            "render": [Function],
+          },
+          "u": null,
+          "uid": 1,
+          "um": null,
+          "update": [Function],
+          "vnode": [Circular],
+          "withProxy": null,
+        },
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <app-layout-stub
+          otherpageprops="[object Object]"
+          title="Dashboard"
+        />,
+        "key": null,
+        "patchFlag": 0,
+        "props": Object {
+          "otherPageProps": Object {},
+          "ref": "VTU_COMPONENT",
+        },
+        "ref": Object {
+          "f": false,
+          "i": [Circular],
+          "k": undefined,
+          "r": "VTU_COMPONENT",
+        },
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "transition": null,
+        "type": Object {
+          "components": Object {
+            "AppLayout": Object {
+              "components": Object {
+                "Head": Object {
+                  "beforeUnmount": [Function],
+                  "data": [Function],
+                  "methods": Object {
+                    "addTitleElement": [Function],
+                    "isUnaryTag": [Function],
+                    "renderNodes": [Function],
+                    "renderTag": [Function],
+                    "renderTagChildren": [Function],
+                    "renderTagStart": [Function],
+                  },
+                  "props": Object {
+                    "title": Object {
+                      "required": false,
+                      "type": [Function],
+                    },
+                  },
+                  "render": [Function],
+                },
+                "JetApplicationMark": Object {
+                  "render": [Function],
+                },
+                "JetBanner": Object {
+                  "computed": Object {
+                    "message": [Function],
+                    "style": [Function],
+                  },
+                  "data": [Function],
+                  "render": [Function],
+                },
+                "JetDropdown": Object {
+                  "computed": Object {
+                    "alignmentClasses": [Function],
+                    "widthClass": [Function],
+                  },
+                  "props": Object {
+                    "align": Object {
+                      "default": "right",
+                    },
+                    "contentClasses": Object {
+                      "default": [Function],
+                    },
+                    "width": Object {
+                      "default": "48",
+                    },
+                  },
+                  "render": [Function],
+                  "setup": [Function],
+                },
+                "JetDropdownLink": Object {
+                  "components": Object {
+                    "Link": Object {
+                      "name": "InertiaLink",
+                      "props": Object {
+                        "as": Object {
+                          "default": "a",
+                          "type": [Function],
+                        },
+                        "data": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "headers": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "href": Object {
+                          "type": [Function],
+                        },
+                        "method": Object {
+                          "default": "get",
+                          "type": [Function],
+                        },
+                        "only": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "preserveScroll": Object {
+                          "default": false,
+                          "type": [Function],
+                        },
+                        "preserveState": Object {
+                          "default": null,
+                          "type": [Function],
+                        },
+                        "replace": Object {
+                          "default": false,
+                          "type": [Function],
+                        },
+                      },
+                      "setup": [Function],
+                    },
+                  },
+                  "props": Array [
+                    "href",
+                    "as",
+                  ],
+                  "render": [Function],
+                },
+                "JetNavLink": Object {
+                  "components": Object {
+                    "Link": Object {
+                      "name": "InertiaLink",
+                      "props": Object {
+                        "as": Object {
+                          "default": "a",
+                          "type": [Function],
+                        },
+                        "data": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "headers": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "href": Object {
+                          "type": [Function],
+                        },
+                        "method": Object {
+                          "default": "get",
+                          "type": [Function],
+                        },
+                        "only": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "preserveScroll": Object {
+                          "default": false,
+                          "type": [Function],
+                        },
+                        "preserveState": Object {
+                          "default": null,
+                          "type": [Function],
+                        },
+                        "replace": Object {
+                          "default": false,
+                          "type": [Function],
+                        },
+                      },
+                      "setup": [Function],
+                    },
+                  },
+                  "computed": Object {
+                    "classes": [Function],
+                  },
+                  "props": Array [
+                    "href",
+                    "active",
+                  ],
+                  "render": [Function],
+                },
+                "JetResponsiveNavLink": Object {
+                  "components": Object {
+                    "Link": Object {
+                      "name": "InertiaLink",
+                      "props": Object {
+                        "as": Object {
+                          "default": "a",
+                          "type": [Function],
+                        },
+                        "data": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "headers": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "href": Object {
+                          "type": [Function],
+                        },
+                        "method": Object {
+                          "default": "get",
+                          "type": [Function],
+                        },
+                        "only": Object {
+                          "default": [Function],
+                          "type": [Function],
+                        },
+                        "preserveScroll": Object {
+                          "default": false,
+                          "type": [Function],
+                        },
+                        "preserveState": Object {
+                          "default": null,
+                          "type": [Function],
+                        },
+                        "replace": Object {
+                          "default": false,
+                          "type": [Function],
+                        },
+                      },
+                      "setup": [Function],
+                    },
+                  },
+                  "computed": Object {
+                    "classes": [Function],
+                  },
+                  "props": Array [
+                    "active",
+                    "href",
+                    "as",
+                  ],
+                  "render": [Function],
+                },
+                "Link": Object {
+                  "name": "InertiaLink",
+                  "props": Object {
+                    "as": Object {
+                      "default": "a",
+                      "type": [Function],
+                    },
+                    "data": Object {
+                      "default": [Function],
+                      "type": [Function],
+                    },
+                    "headers": Object {
+                      "default": [Function],
+                      "type": [Function],
+                    },
+                    "href": Object {
+                      "type": [Function],
+                    },
+                    "method": Object {
+                      "default": "get",
+                      "type": [Function],
+                    },
+                    "only": Object {
+                      "default": [Function],
+                      "type": [Function],
+                    },
+                    "preserveScroll": Object {
+                      "default": false,
+                      "type": [Function],
+                    },
+                    "preserveState": Object {
+                      "default": null,
+                      "type": [Function],
+                    },
+                    "replace": Object {
+                      "default": false,
+                      "type": [Function],
+                    },
+                  },
+                  "setup": [Function],
+                },
+              },
+              "data": [Function],
+              "methods": Object {
+                "logout": [Function],
+                "switchToTeam": [Function],
+              },
+              "props": Object {
+                "title": [Function],
+              },
+              "render": [Function],
+            },
+            "Calendar": Object {
+              "methods": Object {
+                "parseTime": [Function],
+              },
+              "name": "Calendar",
+              "props": Object {
+                "scheduleMeals": [Function],
+              },
+              "render": [Function],
+            },
+          },
+          "props": Object {
+            "scheduleMeals": [Function],
+          },
+          "render": [Function],
+        },
+      },
+      "suspense": null,
+      "suspenseId": 0,
+      "type": Object {
+        "name": "VTU_ROOT",
+        "render": [Function],
+      },
+      "u": null,
+      "uid": 0,
+      "um": null,
+      "update": [Function],
+      "vnode": Object {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": Object {
+          "app": [Circular],
+          "components": Object {
+            "transition": Object {
+              "name": "transition",
+            },
+            "transition-group": Object {
+              "name": "transition-group",
+            },
+          },
+          "config": Object {
+            "compilerOptions": Object {},
+            "errorHandler": undefined,
+            "globalProperties": Object {},
+            "isNativeTag": [Function],
+            "optionMergeStrategies": Object {},
+            "performance": false,
+            "warnHandler": undefined,
+          },
+          "directives": Object {},
+          "emitsCache": WeakMap {},
+          "mixins": Array [
+            Object {
+              "beforeCreate": [Function],
+            },
+          ],
+          "optionsCache": WeakMap {},
+          "propsCache": WeakMap {},
+          "provides": Object {},
+          "reload": [Function],
+        },
+        "children": null,
+        "component": [Circular],
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <app-layout-stub
+          otherpageprops="[object Object]"
+          title="Dashboard"
+        />,
+        "key": null,
+        "patchFlag": 0,
+        "props": null,
+        "ref": null,
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "transition": null,
+        "type": Object {
+          "name": "VTU_ROOT",
+          "render": [Function],
+        },
+      },
+      "withProxy": null,
+    },
+    "_props": null,
+    "_uid": 0,
+    "component": [Function],
+    "config": Object {
+      "compilerOptions": Object {},
+      "errorHandler": undefined,
+      "globalProperties": Object {},
+      "isNativeTag": [Function],
+      "optionMergeStrategies": Object {},
+      "performance": false,
+      "warnHandler": undefined,
+    },
+    "directive": [Function],
+    "mixin": [Function],
+    "mount": [Function],
+    "provide": [Function],
+    "unmount": [Function],
+    "use": [Function],
+    "version": "3.2.26",
+  },
+  "__setProps": [Function],
+  "componentVM": Object {
+    "$t": [Function],
+    "hasOwnProperty": [Function],
+    "scheduleMeals": undefined,
+  },
+  "isDisabled": [Function],
+  "rootVM": Object {
+    "$t": [Function],
+  },
+  "wrapperElement": <app-layout-stub
+    otherpageprops="[object Object]"
+    title="Dashboard"
+  />,
+}
+`;
