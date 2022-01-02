@@ -5,8 +5,9 @@
         </template>
 
         <div class="py-12">
-            <div class="max-w-full mx-auto sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
+                    <custom-table :data="meals" :headings="headings" root-route="meals"></custom-table>
                 </div>
             </div>
         </div>
@@ -17,12 +18,23 @@
 import {defineComponent} from 'vue'
 import AppLayout from "../../Layouts/AppLayout";
 import ResourcePageHeading from "../../Components/ResourcePageHeading";
+import CustomTable from "../../Components/CustomTable";
 
 export default defineComponent({
     components: {
         AppLayout,
-        ResourcePageHeading
+        ResourcePageHeading,
+        CustomTable
     },
-    props: {}
+    props: {
+        meals: Object
+    },
+    setup() {
+        const headings = [
+            'name'
+        ]
+
+        return {headings}
+    }
 })
 </script>

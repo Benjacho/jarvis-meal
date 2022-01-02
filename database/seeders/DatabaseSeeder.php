@@ -22,5 +22,6 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $this->call(ScheduleMealSeeder::class);
+        $this->call(MealSeeder::class);
     }
 }

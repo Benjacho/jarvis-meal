@@ -277,6 +277,7 @@
                 <slot></slot>
             </main>
         </div>
+        <notification :message="$page.props.flash.message"></notification>
     </div>
 </template>
 
@@ -289,6 +290,7 @@ import JetDropdownLink from '../Jetstream/DropdownLink.vue'
 import JetNavLink from '../Jetstream/NavLink.vue'
 import JetResponsiveNavLink from '../Jetstream/ResponsiveNavLink.vue'
 import {Head, Link} from '@inertiajs/inertia-vue3';
+import Notification from "../Components/Notification";
 
 export default defineComponent({
     props: {
@@ -304,6 +306,7 @@ export default defineComponent({
         JetNavLink,
         JetResponsiveNavLink,
         Link,
+        Notification
     },
 
     data() {
